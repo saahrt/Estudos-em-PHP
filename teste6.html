@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="recebe.php"> <!--o post não deixa a senha aparecer na url do site -->
+        <label>Nome</label> <!-- pequeno paragrafo que antecede o nome -->
+        <br> <!-- não é uma boa prática, melhor usar css-->
+        <input type="text" required/>
+        <br>
+        <label>E-mail</label>
+        <br>
+        <input type="email" required/>
+        <br>
+        <label>Senha</label>
+        <br>
+        <input type="password" name="password" minlength="8" required/>
+        <br><br>
+        <button>Logar</button>
+        <br><br>
+    <select name="Sexo">
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+    </select>
+    </form>
+</body>
+</html>
